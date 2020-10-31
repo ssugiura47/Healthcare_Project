@@ -11,13 +11,23 @@ save as: hospital_beds (JSON)
 https://data.ca.gov/dataset/directory-of-service-providers1/resource/2b77a934-7425-4539-9caf-fa05bbabbe59
 save as: medical_county (JSON)
 
-<!-- JOIN (ABOVE AND BELOW)-->
 
 <!-- medically underserved areas -->
 https://data.chhs.ca.gov/dataset/medically-underserved-areas
 Medically_Underserved_Areas_JSON(GEOJSON)
 
+<!-- JOIN ABOVE AND BELOW -->
+
+<!-- low income -->
+https://data.chhs.ca.gov/dataset/living-wage/resource/f5a57e7a-e0fe-4d80-b0f6-92d66ecb907f
+
+
 FEATURES
 - Convert JSON files to GEO JSON with pandas to clean up and format to GEO JSON
 
-INSTALLATONS    
+INSTALLATONS  
+
+WHAT TO DO NEXT TIME:
+
+- clean up date using pandas
+- upload to mongo
