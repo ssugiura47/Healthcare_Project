@@ -30,4 +30,8 @@ INSTALLATONS
 WHAT TO DO NEXT TIME:
 
 - clean up date using pandas
+    - cleaned_lowincomegrouped.csv
+    - cleaned_lowincome.csv
 - upload to mongo
+
+
